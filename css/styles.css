@@ -9,10 +9,38 @@
 
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: var(--color-text);
     background-color: var(--background-white);
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin: 0 auto;
+
+
+}
+.section{
+padding: 120px;
 }
 
 .list {
@@ -23,20 +51,34 @@ body {
     text-decoration: none;
 }
 
-/* хедер */
+/* -------------------------------------------------------------------------------хедер */
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC
+    
+
+
+}
 
 
 .header-logo {
     text-transform: uppercase;
     color: var(--primary-Brand);
     font-family: 'Raleway', sans-serif;
-    ;
+
     font-size: 18px;
     line-height: 1.33;
 }
 
+.header-navigation {
+    display: flex;
+
+}
+
 .header-span {
     color: var(--dark);
+    margin-right: 76px;
 }
 
 .header-link:hover,
@@ -61,20 +103,65 @@ body {
     font-style: normal;
 }
 
+.header-list {
+    display: flex;
+}
+
+.header-item:last-child {
+    margin-right: 0;
+}
+
+
+.header-item {
+
+    margin-right: 40px;
+}
+
+/* ---------------------------------------------------------addess */
+.address{
+    margin-left: auto;
+    
+}
+.header-address {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
 .address-link:hover,
 .address-link:focus {
     color: var(--pressed-state);
 }
 
-/* hero */
+.address-list {
+    display: flex;
+    
+}
+
+.address-list .address-item+.address-item {
+    margin-left: 40px;
+}
+
+
+/* ---------------------------------------------------------------------------------------hero */
 .hero {
     background-color: #2E2F42;
+    text-align: center;
+    padding: 188px 0;
 }
 
 .hero-hover {
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     color: var(--background-white);
+    letter-spacing: 2%;
+    max-width: 475px;
+    margin: auto;
+
+
 }
 
 .hero-btm {
@@ -85,7 +172,11 @@ body {
     color: var(--background-white);
     background-color: var(--primary-Brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
     border-radius: 4px;
+    margin-top: 48px;
+    padding: 16px 32px;
+
 
 }
 
@@ -102,12 +193,12 @@ body {
     height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;   
+    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 .filtr-btm {
     font-family: 'Roboto';
@@ -135,8 +226,10 @@ body {
     background-color: var(--pressed-state);
     color: var(--background-white)
 }
-
-
+/* ---------------------------------------------------------------------------Advantages */
+.Advantages{
+    padding: 120px 0 ;
+}
 .features-hover {
     font-family: 'Roboto';
     color: var(--dark);
@@ -144,27 +237,41 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     
+    
+
 }
 
 .features-meta {
     font-family: 'Roboto';
-   color: var(--color-text);
+    color: var(--color-text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
+
+}
+.features{
+    display: flex;
+}
+.features-item:not(:last-child){
+    margin-right: 24px;
 }
 
 /* подвал */
 .footer {
     background-color: var(--dark);
+    height: 310px;
+
 }
 
 .footer-logo {
     text-transform: uppercase;
     color: var(--primary-Brand);
     font-family: 'Raleway', sans-serif;
-    ;
+    margin-bottom: 16px;
+
 
 
     font-size: 18px;
@@ -182,9 +289,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--accent);
+    max-width: 264px;
 }
-
-.container-hover {
+/* ----------------------------------------------------aside */
+.aside-hover {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
@@ -192,11 +300,26 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    text-align: center;
+    margin-bottom: 72px;
 }
-
+.aside{
+    margin-bottom: 120px;
+}
+.aside-list{
+    display: flex;
+}
+.aside-item:not(:last-child){
+    margin-right: 24px;
+}
+/*         ----------------------------------------------------team */
 .team {
     background-color: var(--cloud);
+    text-align: center;
 
+}
+.team-list{
+    display: flex;
 }
 
 .team-hover {
@@ -205,10 +328,15 @@ body {
     font-size: 36px;
     line-height: 1.07;
     color: var(--dark);
+    margin-bottom: 72px;
 }
 
 .team-item {
     background: var(--background-white);
+
+}
+.team-item:not(:last-child){
+    margin-right: 24px;
 }
 
 .team-subtitle {
@@ -216,13 +344,13 @@ body {
     font-size: 20px;
     line-height: 1.2;
     color: var(--dark);
-    
+    margin-top: 32px;
 }
 
 .team-text {
-
+    
     font-size: 16px;
     line-height: 1.5;
-    
-    
+
+
 }
