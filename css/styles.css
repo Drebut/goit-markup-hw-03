@@ -34,11 +34,7 @@ body {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-
     margin: 0 auto;
-    
-
-
 }
 
 .section {
@@ -65,14 +61,12 @@ body {
     text-transform: uppercase;
     color: var(--primary-Brand);
     font-family: 'Raleway', sans-serif;
-
     font-size: 18px;
     line-height: 1.33;
 }
 
 .header-navigation {
     display: flex;
-
 }
 
 .header-span {
@@ -105,22 +99,19 @@ body {
 
 
 .header-item {
-
     margin-right: 40px;
 }
 
 /* ---------------------------------------------------------addess */
 .address {
     margin-left: auto;
-
 }
 
 .header-address {
     display: flex;
     align-items: center;
-
-
 }
+
 .address-link {
     color: var(--color-text);
     font-size: 16px;
@@ -138,7 +129,6 @@ body {
 
 .address-list {
     display: flex;
-
 }
 
 .address-list .address-item+.address-item {
@@ -161,8 +151,6 @@ body {
     letter-spacing: 2%;
     max-width: 475px;
     margin: auto;
-
-
 }
 
 .hero-btm {
@@ -173,15 +161,11 @@ body {
     color: var(--background-white);
     background-color: var(--primary-Brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
     border-radius: 4px;
     margin-top: 48px;
     padding: 16px 32px;
-
-   
     padding: 16px 32px;
     gap: 10px;
-
 }
 
 .hero-btm:hover,
@@ -209,7 +193,6 @@ body {
     justify-content: center;
     margin-bottom: 84px;
     margin-top: 108px;
-
 }
 
 .filtr-item:not(:last-child) {
@@ -258,9 +241,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-
-
-
 }
 
 .features-meta {
@@ -270,7 +250,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-
 }
 
 .features {
@@ -285,8 +264,6 @@ body {
 .footer {
     background-color: var(--dark);
     padding: 100px 0;
-
-
 }
 
 .footer-logo {
@@ -299,9 +276,6 @@ body {
     display: block;
     margin-bottom: 16px;
     width: 115px;
-
-
-
 }
 
 .footer-span {
@@ -317,7 +291,6 @@ body {
     color: var(--accent);
     width: 264px;
     display: block;
-
 }
 
 /* ----------------------------------------------------aside */
@@ -363,7 +336,8 @@ body {
     flex-wrap: wrap;
     margin-bottom: 120px;
 }
-.features-item-block-item{
+
+.features-item-block-item {
     margin-bottom: 48px;
     margin-right: 24px;
     box-sizing: border-box;
@@ -372,14 +346,16 @@ body {
     border: 1px solid #E7E9FC;
     height: 420px;
 }
-.features-item-block-item:nth-child(n+6){
+
+.features-item-block-item:nth-child(n+6) {
     margin-bottom: 0;
 }
-.features-item-block-item:nth-child(3n){
+
+.features-item-block-item:nth-child(3n) {
     margin-right: 0;
 }
 
-.features-hover-block{
+.features-hover-block {
     font-family: 'Roboto';
     color: var(--dark);
     font-weight: 500;
@@ -390,9 +366,9 @@ body {
     margin-bottom: 8px;
     margin-top: 32px;
     margin-left: 16px;
-
 }
-.features-meta-block{
+
+.features-meta-block {
     font-family: 'Roboto';
     color: var(--color-text);
     font-size: 16px;
@@ -403,14 +379,12 @@ body {
     margin-left: 16px;
     margin-bottom: 32px;
     display: block;
-    
 }
 
 /*         ----------------------------------------------------team */
 .team {
     background-color: var(--cloud);
     text-align: center;
-
 }
 
 .team-list {
@@ -431,8 +405,6 @@ body {
     height: 380px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-
-
 }
 
 .team-item:not(:last-child) {
@@ -448,9 +420,6 @@ body {
 }
 
 .team-text {
-
     font-size: 16px;
     line-height: 1.5;
-
-
 }
