@@ -38,7 +38,7 @@ body {
 }
 
 .section {
-    padding: 120px;
+    padding: 120px 0;
 }
 
 .list {
@@ -166,6 +166,7 @@ body {
     padding: 16px 32px;
     padding: 16px 32px;
     gap: 10px;
+    border: 0;
 }
 
 .hero-btm:hover,
@@ -187,12 +188,16 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.filter{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 .filtr-list {
     display: flex;
     justify-content: center;
     margin-bottom: 84px;
-    margin-top: 108px;
+   
 }
 
 .filtr-item:not(:last-child) {
@@ -212,9 +217,7 @@ body {
     color: var(--primary-Brand);
     background-color: var(--cloud);
     cursor: pointer;
-    border: 1px solid;
     border-radius: 4px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border: 1px solid #E7E9FC;
     flex: none;
     order: 1;
@@ -225,7 +228,9 @@ body {
 .filtr-btm:hover,
 .filtr-btm:focus {
     background-color: var(--pressed-state);
-    color: var(--background-white)
+    color: var(--background-white);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: 1px solid var(--pressed-state);
 }
 
 /* ---------------------------------------------------------------------------Advantages */
@@ -294,6 +299,9 @@ body {
 }
 
 /* ----------------------------------------------------aside */
+.aside{
+    padding-bottom:padding;
+}
 .aside-hover {
     font-family: 'Roboto';
     font-weight: 700;
@@ -306,9 +314,7 @@ body {
     margin-bottom: 72px;
 }
 
-.aside {
-    margin-bottom: 120px;
-}
+
 
 .aside-list {
     display: flex;
@@ -334,7 +340,7 @@ body {
 .block {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 120px;
+   
 }
 
 .features-item-block-item {
@@ -355,30 +361,10 @@ body {
     margin-right: 0;
 }
 
-.features-hover-block {
-    font-family: 'Roboto';
-    color: var(--dark);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    display: block;
-    margin-bottom: 8px;
-    margin-top: 32px;
-    margin-left: 16px;
-}
-
-.features-meta-block {
-    font-family: 'Roboto';
-    color: var(--color-text);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    max-width: 264px;
-    font-weight: 400;
-    margin-left: 16px;
-    margin-bottom: 32px;
-    display: block;
+.text-block{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
 
 /*         ----------------------------------------------------team */
