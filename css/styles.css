@@ -167,6 +167,7 @@ body {
     padding: 16px 32px;
     gap: 10px;
     border: 0;
+    width: 169px;
 }
 
 .hero-btm:hover,
@@ -234,7 +235,7 @@ body {
 }
 
 /* ---------------------------------------------------------------------------Advantages */
-.Advantages {
+.аdvantages {
     padding: 120px 0;
 }
 
@@ -349,8 +350,10 @@ body {
     box-sizing: border-box;
     width: 360px;
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
+   
     height: 420px;
+    
+    
 }
 
 .features-item-block-item:nth-child(n+6) {
@@ -365,6 +368,9 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
+    border-bottom: 1px solid #E7E9FC ;
+    border-right: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
 }
 
 /*         ----------------------------------------------------team */
